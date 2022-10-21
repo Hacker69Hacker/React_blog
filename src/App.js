@@ -1,9 +1,11 @@
 import './App.css';
-import Topbar from "./topbar/Topbar"
+import Topbar from "./components/topbar/Topbar"
+import Settings from "./pages/settings/settings"
 function App() {
   return (
     <>
     <Topbar />
+    <Settings/>
     </>
   );
 }
